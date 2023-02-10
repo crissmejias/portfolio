@@ -1,0 +1,6 @@
+@tailwind base;
+@tailwind components;
+.link{
+    @apply text-[#e65a55] font-bold text-xl hover:bg-orange-300 rounded-lg p-4 text-center;
+}
+@tailwind utilities;
