@@ -1,8 +1,9 @@
+import doc from '../assets/doc.pdf'
 const Download = () => {
     return(
-            <button className="w-2/3 md:mt-4 mx-auto p-4 rounded-xl border-2 mt-6 mb-2 active:bg-white active:text-gray-700 transition-colors text-center text-lg text-white font-bold bg-gray-700">
+            <a href={doc} download={true} className="hover:text-[#C06868] cursor-pointer bg-[#E5D4CE]  shadow-lg shadow-[#695858] border-black border-[1px] dark:border-white dark:hover:text-gray-500 w-2/3 mx-auto rounded-lg p-2  dark:active:bg-white dark:active:border-gray-700  dark:active:text-gray-700 transition-colors text-center text-lg dark:text-white font-bold dark:bg-gray-700">
                 Download my CV
-            </button>
+            </a>
     )
 }
 export {Download};

@@ -2,13 +2,14 @@ import { Card } from "./Card";
 import portfolio from '../assets/image.png'
 const Projects = () => {
     return(
-        <div className="w-11/12 border-2 mx-auto flex flex-col justify-start gap-12 mt-4 rounded-lg bg-gray-700">
-        <div className="mt-10">
-            <p className="text-center text-4xl font-bold text-[#fff]">Projects</p>
+        <div className="w-10/12 md:w-1/2 h-98 md:h-5/6 mx-auto flex flex-col justify-start gap-2 my-4 rounded-lg dark:bg-gray-700 bg-[#E5D4CE] shadow-lg shadow-[#695858]  border-black border-[1px] ">
+        <div className="mt-8">
+            <p className="text-center text-4xl font-bold dark:text-[#fff]">Projects</p>
         </div>
-        <div className="w-full items-center flex flex-wrap justify-evenly rounded-lg  gap-6 mx-auto lg:grid lg:grid-cols-2 lg:place-items-center py-8">
+        <div className="items-center flex flex-wrap justify-evenly rounded-lg gap-8 mx-8 md:grid md:grid-cols-2 md:place-items-center py-4">
             <Card url={portfolio}/>
             <Card url={portfolio}/>
+            
         </div>
         </div>
     )
