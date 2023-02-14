@@ -1,6 +1,6 @@
 @tailwind base;
 @tailwind components;
 .link{
-    @apply text-[#fff] font-bold text-base hover:bg-orange-300 rounded-lg px-12 py-4 md:p-4 text-center;
+    @apply text-[#fff] font-bold text-base hover:bg-gray-600 px-12 py-4 md:p-4 text-center border-t-2 md:border-none border-opacity-25;
 }
 @tailwind utilities;

@@ -1,6 +1,8 @@
 import profile from '../assets/profile.jpg'
+import { Download } from './Download';
 const Sidebar = () => {
     return(
+        <>
         <div className=" w-11/12 md:max-h-[450px]  mt-4 mx-auto bg-gray-700 rounded-lg border-2 border-gray-200 opacity-[35]">
             <div className="rounded-[92%] mt-12 w-[200px] border-none h-[200px] mx-auto bg-gray-900 opacity-45"> <img className='w-full h-full mix-blend-color-lighten rounded-full object-contain' src={profile} alt="" /></div>
             <div className=" my-2 flex  flex-col items-baseline gap-2">
@@ -11,6 +13,8 @@ const Sidebar = () => {
                 <a href="https://linkedin.com/in/criss-mejias" className='text-[#fff] hover:text-gray-500 transition-colors  text-center inline-block m-auto' target="_blank"><i className='fi fi-brands-linkedin'></i> in/criss-mejias</a>
             </div>
         </div>
+        <Download />
+        </>
     )
 }
 export {Sidebar};
