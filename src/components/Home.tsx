@@ -4,7 +4,7 @@ import ball from '/ball.gif'
 import guitar from '/guitar.gif'
 const Home = () => {
 return(
-    <section className="dark:border-white w-10/12 md:w-1/2 my-4 h-98 md:h-5/6 rounded-lg mx-auto bg-[#E5D4CE] shadow-lg shadow-[#695858] border-black border-[1px] dark:bg-gray-700 flex flex-col items-center justify-start gap-8 flex-wrap py-4">
+    <section className="dark:border-white w-10/12 md:w-1/2 my-4 h-98 md:h-5/6 rounded-lg mx-auto bg-[#EAEDFB] shadow-lg shadow-[#695858] border-black border-[1px] dark:bg-gray-700 flex flex-col items-center justify-start gap-8 flex-wrap py-4">
         <div className="mx-auto">
             <h2 className="text-center text-3xl dark:text-white font-bold">About Me</h2>
             <p className='dark:text-white text-lg mt-4 mx-8 text-center'>I'm a Frontend Developer based in Colombia, I like building User Interfaces using JavaScript with React Ecosystem.</p>

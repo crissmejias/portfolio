@@ -9,7 +9,7 @@ const App = ()  => {
 return(
     <>
     <Header/>
-    <div className="flex flex-col md:flex-row bg-[#C06868] dark:bg-gray-900 pb-12 transition-colors">
+    <div className="flex flex-col md:flex-row bg-[#BDC9FC] dark:bg-gray-900 pb-12 transition-colors">
         <div className="w-11/12 md:w-1/3 mx-auto flex flex-col gap-4">
         <Sidebar/>
         <Download />

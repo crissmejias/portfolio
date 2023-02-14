@@ -4,10 +4,10 @@
     @apply dark:text-[#fff] font-bold text-base dark:hover:bg-gray-600 px-12 py-4 md:p-4 text-center border-black dark:border-gray-300 border-t-2 md:border-none border-opacity-25;
 }
 .active {
-    @apply dark:bg-gray-600 transition-colors
+    @apply dark:bg-gray-600 bg-[#BDC9FC] transition-colors
 }
 @tailwind utilities;
 
 body{
-    @apply dark:bg-gray-900 bg-[#C06868]
+    @apply dark:bg-gray-900 bg-[#BDC9FC]
 }
